@@ -11,7 +11,7 @@ import {Observable} from 'rxjs'
 export class StudentsService {
 
 	//Properties
-	apiUrl = "http://hp-api.herokuapp.com/api/characters/students"
+	apiUrl = "https://hp-api.herokuapp.com/api/characters/students"
 
 	//Dependencies Injection
   constructor(private http: HttpClient) { }

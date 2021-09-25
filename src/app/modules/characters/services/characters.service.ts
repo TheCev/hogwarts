@@ -12,7 +12,7 @@ import { Observable } from 'rxjs'
 export class CharactersService {
 
 	//Properties
-	apiUrl = 'http://hp-api.herokuapp.com/api/characters/house'
+	apiUrl = 'https://hp-api.herokuapp.com/api/characters/house'
 
 	//Dependencies Injection
   constructor(private http: HttpClient) { }
